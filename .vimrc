@@ -45,7 +45,7 @@ set ruler                           " line and column number of the cursor posit
 set wildmenu                        " enhanced command completion
 set wildmode=list:longest,full      " command completion mode
 set laststatus=2                    " always show the status line
-set mouse=a                         " use mouse in all mode
+"set mouse=a                         " use mouse in all mode
 set foldenable                      " fold lines
 set foldmethod=marker               " fold as marker 
 set noerrorbells                    " do not use error bell
@@ -83,6 +83,8 @@ set backupcopy=yes                  " overwrite the original file
 
 " vundle 插件管理的安装 用来管理插件
 " git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+"
+"
 
 set nocompatible              " be iMproved
 filetype off                  " required!
